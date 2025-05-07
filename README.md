@@ -77,4 +77,4 @@ Android Studio 기반으로 개발되었으며, **Kakao 지도 API** 및 다양�
 
 ## 📬 문의
 
-궁금한 점이 있다면 [Issues](https://github.com/semicolon213/레포명/issues) 를 통해 질문해주세요.
+궁금한 점이 있다면 [Issues](https://github.com/semicolon213/mobile_programming/issues) 를 통해 질문해주세요.
