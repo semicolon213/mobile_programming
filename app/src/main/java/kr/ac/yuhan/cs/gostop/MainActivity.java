@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         webView.setWebViewClient(new WebViewClient());      ///외부 브라우저 안 열리도록 설정
 
         // React PWA 사이트 주소 입력
-        webView.loadUrl("http://10.0.2.2:3000");
+        webView.loadUrl("yuhangostop.netlify.app");
     }
     @Override
     public void onBackPressed() {                           ///화면에서 뒤로가기 사용시 PWA 사이트 뒤로가기
