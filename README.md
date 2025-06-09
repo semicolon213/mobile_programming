@@ -1,7 +1,8 @@
 # 🗺️ 랜덤 여행지 선정 - 나는 누구? 여긴 어디?
 
 랜덤으로 여행지를 추천하고, 해당 지역의 맛집 정보를 함께 제공하는 **모바일 전용 어플리케이션**입니다.  
-Android Studio 기반으로 개발되었으며, **Kakao 지도 API** 및 다양한 외부 데이터를 활용합니다.
+React를 이용해 기능 및 화면 개발을 했으며 Netlify를 이용해 배포 후 Android Studio에서 PWA 웹뷰로 실행시킵니다.
+**T Map API** 및 다양한 외부 데이터를 활용합니다.
 
 ---
 
@@ -9,23 +10,22 @@ Android Studio 기반으로 개발되었으며, **Kakao 지도 API** 및 다양�
 
 - 🎲 랜덤 여행지 추천 (지역 필터 기능 제공)
 - 🍜 추천된 여행지 주변 맛집 정보 자동 제공
-- 🗺️ Kakao 지도 연동으로 위치 안내 및 길찾기 지원
-- 📱 Android Native UI 기반의 직관적인 사용자 경험
+- 🗺️ T Map 연동으로 위치 안내 및 길찾기 지원
+- 📱 React 기반의 직관적인 사용자 경험 및 반응형 UI
 
 ---
 
 ## 🛠 사용 기술
 
-| 플랫폼 | IDE | 주요 API |
+| 개발환경 | IDE | 주요 API |
 |--------|-----|----------|
-| Android | Android Studio | Kakao Map API, Kakao Local API |
+| Android, React | Android Studio, VS Code | T Map API |
 
 ---
 
 ## 🚀 사용법
 
-> 사용법은 추후 작성 예정입니다.
-
+> 실행 후 설정 버튼을 눌러 교통수단과 시간대를 설정합니다. 그리고 랜덤 여행지 생성을 누르면 자동으로 여행지를 선택하고 주변의 음식점을 알려줍니다.
 ---
 
 ## 👥 팀 소개 - hot6
@@ -67,7 +67,7 @@ Android Studio 기반으로 개발되었으며, **Kakao 지도 API** 및 다양�
     <td align="center">
       <img src="images/team/안창희.jpg" width="100"/><br/>
       <b>안창희</b><br/>
-      팀원원<br/>
+      팀원<br/>
       <a href="https://github.com/ahn321">@ahn321</a>
     </td>
   </tr>
