@@ -63,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        checkAndRequestLocationPermission();
+
         // React PWA 사이트 주소 입력
         webView.loadUrl("https://yuhangostop.netlify.app/");
     }
@@ -88,6 +90,20 @@ public class MainActivity extends AppCompatActivity {
                         Log.d(MainActivity.class.getSimpleName(), "All permissions granted!");
                     }
                 });
+    }
+    private void checkAndRequestLocationPermission() {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) {
+
+            // 권한이 없으면 요청
+            permissionsResultLauncher.launch(new String[]{
+                    Manifest.permission.ACCESS_FINE_LOCATION,
+                    Manifest.permission.ACCESS_COARSE_LOCATION
+            });
+
+        } else {
+            Log.d("MainActivity", "위치 권한 이미 허용됨");
+        }
     }
     @Override
     public void onBackPressed() {                           /// 화면에서 뒤로가기 사용 시 PWA 사이트 뒤로가기
