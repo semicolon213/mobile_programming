@@ -31,3 +31,11 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# React (GOSTOP) 
+GOSTOP/node_modules/
+GOSTOP/build/
+GOSTOP/.env*
+GOSTOP/npm-debug.log*
+GOSTOP/yarn-debug.log*
+GOSTOP/yarn-error.log*

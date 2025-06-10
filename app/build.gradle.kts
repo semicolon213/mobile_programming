@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "kr.ac.yuhan.cs.gostop"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "kr.ac.yuhan.cs.gostop"
-        minSdk = 35
-        targetSdk = 35
+        minSdk = 34
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
