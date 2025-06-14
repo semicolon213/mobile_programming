@@ -2,7 +2,7 @@
 
 랜덤으로 여행지를 추천하고, 해당 지역의 맛집 정보를 함께 제공하는 **모바일 전용 어플리케이션**입니다.  
 React를 이용해 기능 및 화면 개발을 했으며 Netlify를 이용해 배포 후 Android Studio에서 PWA 웹뷰로 실행시킵니다.
-**T Map API** 및 다양한 외부 데이터를 활용합니다.
+**T Map API** 데이터를 활용합니다.
 
 ---
 
@@ -17,9 +17,9 @@ React를 이용해 기능 및 화면 개발을 했으며 Netlify를 이용해 �
 
 ## 🛠 사용 기술
 
-| 개발환경 | IDE | 주요 API |
-|--------|-----|----------|
-| Android, React | Android Studio, VS Code | T Map API |
+| 개발환경 | IDE | 주요 API | 배포 |
+|--------|-----|----------|-------|
+| Android, React | Android Studio, VS Code | T Map API | Netlify |
 
 ---
 
@@ -72,6 +72,12 @@ React를 이용해 기능 및 화면 개발을 했으며 Netlify를 이용해 �
     </td>
   </tr>
 </table>
+
+---
+
+## ➕ React 배포 레포지토리
+
+https://github.com/semicolon213/mobile_react.git
 
 ---
 
